@@ -9,6 +9,7 @@ body {
   background-color: #f0f0f0;
   color: #000;
 }
+
 .inicio {
   display: flex;
   flex-direction: column;
@@ -17,6 +18,7 @@ body {
   height: 100vh;
   background-color: #fff;
 }
+
 .inicio img {
   width: 150px;
   height: 130px;
@@ -31,6 +33,7 @@ body {
   margin-bottom: 30px;
   margin-top: 10px;
 }
+
 label {
   display: flex;
   margin-top: 1em;
@@ -58,6 +61,7 @@ button {
 a {
   color: rgb(71, 165, 243);
 }
+
 a:hover {
   color: #c718fcdc;
 }
@@ -66,16 +70,58 @@ label {
   color: #474040bb;
 }
 
-#datos{width: auto;}
+#datos {
+  width: auto;
+}
 
 
 .registro img {
-    width: 150px;
-    height: 130px;
-    margin-top: 5px;
-    align-items: center;
-    justify-content: center;
+  width: 150px;
+  height: 130px;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.registro {
+  background: linear-gradient(to right, #f054e8, #bc69ec, rgb(58, 98, 228));
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Korcy";
+  src: url(tipografia/Korcy.otf);
+} 
+.registro h1 {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Korcy";
+}  
+
+@font-face {
+  font-family: "Pretty";
+  src: url(tipografia/Pretty.ttf);
 } 
 
+.registro p {
+  align-items:center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Pretty";
+  
+}  
+.subtitulo{display: flex;
+  justify-content: center;flex-direction: column;
+align-items: center;}
 
-.registro-fondo{background: linear-gradient(to right,#c10ada,#8908d3,rgb(27, 14, 214));}
+.subtitulo h1{margin-bottom: 0px;}
+.subtitulo p{text-align: start;width: 100%;}
