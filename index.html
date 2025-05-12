@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
- <fieldset class="inicio">
+<body>
+    <fieldset class="inicio">
         <img src="multimedia/logo_air.png" alt="logo acme air">
-      
-        <br>
-    <h1>Iniciar Sesión</h1>
-    
-    <form action="email" method="post" >
-        <label for="username"></label>
-        <input type="email" placeholder="Email" id="email" name="email" required>
-      
-        <label for="contraseña"></label>
-        <input type="password" placeholder="Contraseña" id "contraseña" name="password" required>
-
-      <label>
-            <input type="checkbox" name="remember" id="datos">
-            Recordar mis datos
-        </label> 
 
         <br>
+        <h1>Iniciar Sesión</h1>
+
+        <form action="email" method="post">
+            <label for="username"></label>
+            <input type="email" placeholder="Email" id="email" name="email" required>
+
+            <label for="contraseña"></label>
+            <input type="password" placeholder="Contraseña" id "contraseña" name="password" required>
+
+            <label>
+                <input type="checkbox" name="remember" id="datos">
+                Recordar mis datos
+            </label>
+
+            <br>
+            <br>
+            <button type="submit">INGRESAR</button>
+
+        </form>
+
         <br>
-        <button type="submit">INGRESAR</button>
+        <a href="HTML/registro.html">Crear Cuenta</a>
+        <br>
+        <a href="HTML/recuperar_contraseña.html">¿Haz olvidado tu contraseña?</a>
 
-    </form>
-
-    <br>
-    <a href="registro.html">Crear Cuenta</a>
-    <br>
-    <a href="recuperar_cuenta.html">¿Haz olvidado tu contraseña?</a>
-    
- </fieldset> 
+    </fieldset>
 </body> 
-</html>  
- 
+
+</html>

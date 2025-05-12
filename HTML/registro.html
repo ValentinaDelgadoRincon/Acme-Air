@@ -10,15 +10,45 @@
 </head>
 
 <body>
-  <div class="registro">
-    <div class="avion">
-      <img src="/multimedia/avion_air.png" alt="logo de avion" />
+  <div class="contenido">
+    <div class="registro">
+      <div class="avion">
+        <img src="/multimedia/avion_air.png" alt="logo de avion" />
+      </div>
+      <div class="subtitulo">
+        <h1>ACME AIR</h1>
+        <p>Flying to your dreams :)</p>
+      </div>
     </div>
-    <div class="subtitulo">
-      <h1>ACME AIR</h1>
-      <p>Flying to your dreams :)</p>
-    </div>
-  </div>
+
+    <form class="datosregistro">
+      <h2>Registro</h2>
+
+      <label for="nombre"></label>
+      <input type="text" placeholder="Nombre Completo" id="nombre" name="nombre" required />
+
+      <label for="documento"></label>
+      <input type="number" placeholder="No.Identificación" id="documento" name="documento" required
+        pattern="\d{5,15}" />
+
+      <label for="email"></label>
+      <input type="email" placeholder="Email" id="email" name="email" required />
+
+      <label for="telefono"></label>
+      <input type="tel" placeholder="Teléfono" id="telefono" name="telefono" required pattern="[0-9]{7,10}" />
+
+      <label for="ciudad"></label>
+      <select id="ciudad" name="ciudad" required>
+        <option value="">Ciudad</option>
+        <option value="bucaramanga">Bucaramanga</option>
+        <option value="floridablanca">Floridablanca</option>
+        <option value="piedecuesta">Piedecuesta</option>
+        <option value="giron">Giron</option>
+      </select>
+      <button type="submit" class="form-buttons">GUARDAR</button>
+    </form>
+  
+
 </body>
 
 </html>
