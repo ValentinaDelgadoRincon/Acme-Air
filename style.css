@@ -354,6 +354,7 @@ h2{
   padding: 5px;
   margin: 10px;
   width: 100%;
+  color: #575252;
 
 } 
 
@@ -364,6 +365,7 @@ h2{
   padding: 5px;
   margin: 10px;
   width: 100%;
+  color: #575252;
 } 
 
 .fila1-sesion{
@@ -386,3 +388,63 @@ h2{
   width: 100%;
   color: #575252;
 } 
+
+
+.checkin{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  align-items: center;
+  margin-top: 100;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.checkin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+} 
+
+.checkin-form {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  width: 100%;
+
+  flex-direction: column;
+  align-items: center;
+  gap:0.2vh;
+
+}
+
+.checkin-form input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.checkin-form select {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  background-color: #fff;
+  color: #575252;
+} 
+
+.checkin-form h2 {
+  color: #746f6f;
+ font-size: 20px;
+} 
+
+.fila2-vuelos strong {
+  font-size: 40px;
+}
+
+.tarjetas{width: 90%;} 
