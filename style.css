@@ -87,7 +87,6 @@ label {
   background: linear-gradient(to right, #f054e8, #bc69ec, rgb(58, 98, 228));
   display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
   width: 100%;
 }
@@ -240,35 +239,150 @@ h2{
   margin-bottom: 10px;
   margin-top: 20px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 10px;
+  justify-content: center;
 }
-
 
 .sesionabierta {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+} 
+ .sesionabierta a {
+  color: #575252;
+  padding: 10px;
+ }
 
-.caja {
+.busqueda {
   display: flex;
   align-items: center;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 8px;
+  gap: 15px;
+  position: absolute
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #fff;
 }
 
-.caja img {
-  object-fit: cover;
-  margin-right: 20px;
-  border-radius: 6px;
+.busqueda h2 {
+  color: #000;
+  text-align: start;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
-.texto {
-  flex: 1;
-  font-family: sans-serif;
+.subtitulo a {
+  text-align: start;
+  width: 100%;
+  color: #575252;
+}   
+
+.busqueda h1 {
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+} 
+
+  .datosvuelos {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap:0.2vh;
+  
+  }
+  
+  .datosvuelos input {
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1px;
+  }
+  
+  .datosvuelos select {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    background-color: #fff;
+    color: #575252;
+  } 
+  
+
+.vuelosdisponibles{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap:0.2vh;
+
 }
+
+.vuelosdisponibles p {
+  color: #645c5c;
+  text-align: start;
+  width: 90%;
+  justify-content: start;
+}  
+
+.info-vuelos{
+  display: flex;
+  border: 1px solid #807878a4;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin: 1rem 1rem;
+  box-shadow: 3px 3px 3px gray;
+  padding: 20px;
+  margin: 10px;
+  width: 90%;
+}
+
+.fila1-vuelos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+
+} 
+
+.fila2-vuelos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+} 
+
+.fila1-sesion{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+  color: #575252;
+
+} 
+
+.fila2-sesion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+  color: #575252;
+} 
