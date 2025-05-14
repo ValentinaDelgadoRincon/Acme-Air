@@ -472,3 +472,12 @@ h2 {
 .tarjetas {
   width: 90%;
 }
+
+@keyframes flyUp {
+  from { transform: translateY(100px) scale(0.8); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.avion {
+  animation: flyUp 1.5s ease-out;
+}
