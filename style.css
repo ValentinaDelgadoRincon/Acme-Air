@@ -473,11 +473,14 @@ h2 {
   width: 90%;
 }
 
-@keyframes flyUp {
-  from { transform: translateY(100px) scale(0.8); opacity: 0; }
-  to { transform: translateY(0) scale(1); opacity: 1; }
-}
+
 
 .avion {
-  animation: flyUp 1.5s ease-out;
+  width: 100px;
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
 }
+
+.avion:hover {
+  transform: translateY(-150px) rotate(-10deg) scale(1.1);
+} 
