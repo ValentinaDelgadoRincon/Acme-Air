@@ -1,27 +1,33 @@
+@media screen and (min-width: 800px) {
+  body{display: flex !important;
+  height: 100%;}
+
+  .desktop{
+    display: block !important;
+  }
+ .mobile{
+    display: none !important;
+  }
+
+}
+
+.desktop {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
-@media (min-width: 800px) {
-  .mensaje-prohibidoPC {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  body {
-    display: none !important;
-  }
-} 
-
 body {
   background-color: #f0f0f0;
   color: #000;
 }
+
+
+
 
 .inicio {
   display: flex;
@@ -157,7 +163,7 @@ label {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  gap:0.2vh;
+  gap: 0.2vh;
 }
 
 .datosregistro input {
@@ -186,15 +192,20 @@ label {
   background-color: #fff;
 }
 
-h2{
+h2 {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 
-#ciudad{width: 90%;}
+#ciudad {
+  width: 90%;
+}
 
-.form-buttons{margin-top: 7vh;margin-bottom: 10vh;}
+.form-buttons {
+  margin-top: 7vh;
+  margin-bottom: 10vh;
+}
 
 .recuperacioncontraseña {
   border-top-left-radius: 10px;
@@ -205,9 +216,10 @@ h2{
 
   flex-direction: column;
   align-items: center;
-  gap:0.2vh;
+  gap: 0.2vh;
 
-} 
+}
+
 .recuperacioncontraseña input {
   width: 90%;
   padding: 15px;
@@ -234,9 +246,10 @@ h2{
 
   flex-direction: column;
   align-items: center;
-  gap:0.2vh;
+  gap: 0.2vh;
 
-} 
+}
+
 .crearcontraseña input {
   width: 90%;
   padding: 15px;
@@ -245,7 +258,7 @@ h2{
   margin-bottom: 1px;
 }
 
-.sesionabierta{
+.sesionabierta {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 20px;
@@ -261,18 +274,18 @@ h2{
   align-items: center;
   justify-content: center;
   background-color: #fff;
-} 
- .sesionabierta a {
+}
+
+.sesionabierta a {
   color: #575252;
   padding: 10px;
- }
+}
 
 .busqueda {
   display: flex;
   align-items: center;
   gap: 15px;
-  position: absolute
-  top: 0;
+  position: absolute top: 0;
   left: 0;
   padding: 5px;
   background-color: #fff;
@@ -289,7 +302,7 @@ h2{
   text-align: start;
   width: 100%;
   color: #575252;
-}   
+}
 
 .busqueda h1 {
   color: #000;
@@ -298,43 +311,43 @@ h2{
   justify-content: center;
   margin-bottom: 5px;
   margin-top: 10px;
-} 
+}
 
-  .datosvuelos {
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap:0.2vh;
-  }
-  
-  .datosvuelos input {
-    width: 90%;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 1px;
-  }
-  
-  .datosvuelos select {
-    width: 300px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 1px;
-    background-color: #fff;
-    color: #575252;
-  } 
-  
-
-.vuelosdisponibles{
+.datosvuelos {
+  border-radius: 10px;
+  border: 1px solid #ccc;
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
-  gap:0.2vh;
+  gap: 0.2vh;
+}
+
+.datosvuelos input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.datosvuelos select {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  background-color: #fff;
+  color: #575252;
+}
+
+
+.vuelosdisponibles {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2vh;
 
 }
 
@@ -343,9 +356,9 @@ h2{
   text-align: start;
   width: 90%;
   justify-content: start;
-}  
+}
 
-.info-vuelos{
+.info-vuelos {
   display: flex;
   border: 1px solid #807878a4;
   border-radius: 5px;
@@ -357,7 +370,7 @@ h2{
   width: 90%;
 }
 
-.fila1-vuelos{
+.fila1-vuelos {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -366,7 +379,7 @@ h2{
   width: 100%;
   color: #575252;
 
-} 
+}
 
 .fila2-vuelos {
   display: flex;
@@ -376,9 +389,9 @@ h2{
   margin: 10px;
   width: 100%;
   color: #575252;
-} 
+}
 
-.fila1-sesion{
+.fila1-sesion {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -387,7 +400,7 @@ h2{
   width: 100%;
   color: #575252;
 
-} 
+}
 
 .fila2-sesion {
   display: flex;
@@ -398,10 +411,10 @@ h2{
   width: 100%;
   color: #575252;
   justify-content: center;
-} 
+}
 
 
-.checkin{
+.checkin {
   text-align: center;
   align-items: center;
   margin-top: 10px;
@@ -410,7 +423,7 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-} 
+}
 
 
 .checkin-form {
@@ -422,8 +435,8 @@ h2{
   align-items: center;
   padding-bottom: 100px;
   justify-content: center;
-  gap:0.2vh;
-} 
+  gap: 0.2vh;
+}
 
 .check_in {
   display: flex;
@@ -444,8 +457,8 @@ h2{
 
 .checkin-form h2 {
   color: #746f6f;
- font-size: 20px;
-} 
+  font-size: 20px;
+}
 
 .fila2-vuelos {
   align-items: end;
@@ -456,4 +469,6 @@ h2{
   font-size: 40px;
 }
 
-.tarjetas{width: 90%;} 
+.tarjetas {
+  width: 90%;
+}
