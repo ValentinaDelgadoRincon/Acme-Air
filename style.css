@@ -5,6 +5,19 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media (min-width: 800px) {
+  .mensaje-prohibidoPC {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  body {
+    display: none !important;
+  }
+} 
+
 body {
   background-color: #f0f0f0;
   color: #000;
@@ -142,11 +155,9 @@ label {
   border: 1px solid #ccc;
   display: flex;
   width: 100%;
-
   flex-direction: column;
   align-items: center;
   gap:0.2vh;
-
 }
 
 .datosregistro input {
@@ -297,7 +308,6 @@ h2{
     flex-direction: column;
     align-items: center;
     gap:0.2vh;
-  
   }
   
   .datosvuelos input {
@@ -382,66 +392,65 @@ h2{
 .fila2-sesion {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   padding: 5px;
   margin: 10px;
   width: 100%;
   color: #575252;
+  justify-content: center;
 } 
 
 
 .checkin{
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 20px;
   align-items: center;
-  margin-top: 100;
+  margin-top: 10px;
   margin-bottom: 10px;
   justify-content: center;
-}
-
-.checkin {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #fff;
 } 
+
 
 .checkin-form {
   border-radius: 10px;
   border: 1px solid #ccc;
   display: flex;
   width: 100%;
-
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
+  justify-content: center;
   gap:0.2vh;
+} 
 
+.check_in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkin-form input {
-  width: 90%;
+  width: 100%;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 1px;
+  margin-bottom: 10px;
 }
 
-.checkin-form select {
-  width: 300px;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 1px;
-  background-color: #fff;
-  color: #575252;
-} 
+
 
 .checkin-form h2 {
   color: #746f6f;
  font-size: 20px;
 } 
+
+.fila2-vuelos {
+  align-items: end;
+  justify-content: center;
+}
 
 .fila2-vuelos strong {
   font-size: 40px;
